@@ -61,3 +61,4 @@ class RealEstatePropertyExtension(models.Model):
     )
     property_type_id = fields.Many2one('y.realestate.property.type',string="Property Type")
     property_tag_id = fields.Many2many('y.realestate.property.tag',string="Property Tags")
+    offer_ids = fields.One2many('y.realestate.property.offer','property_id',string="Offers")
