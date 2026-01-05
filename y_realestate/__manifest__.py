@@ -13,10 +13,11 @@
         ### Start Add: ขั้นตอนที่ 4: ขั้นตอนที่ 4: การสร้างส่วนติดต่อผู้ใช้ (User Interface Creation)
  		'views/property.xml',
  		'views/menu.xml',
+        'views/property_type_views.xml',
  		### End Add: ขั้นตอนที่ 4: ขั้นตอนที่ 4: การสร้างส่วนติดต่อผู้ใช้ (User Interface Creation)
  		### Start Add: ขั้นตอนที่ 3: การตั้งค่าความปลอดภัย (Security Configuration)
  		'security/ir.model.access.csv',
- 		### End Add: ขั้นตอนที่ 3: การตั้งค่าความปลอดภัย (Security Configuration)
+ 		### End Add: ขั้นตอนที่ 3: การตั้งค่าความปลอดภัย (Security Configuration)       
     ],
     'demo': [],
     'installable': True,
