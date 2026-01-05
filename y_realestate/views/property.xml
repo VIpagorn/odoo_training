@@ -31,6 +31,7 @@
                             <field name="postcode" string="Postcode"/>
                             <field name="date_availability" string="Available From"/>
                             <field name="property_type_id" string="Property type"/>
+                            <field name="property_tag_id" string="Property Tags"/>
                         </group>
                         <group>
                             <field name="expected_price" string="Expected Price"/>

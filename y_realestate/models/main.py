@@ -60,3 +60,4 @@ class RealEstatePropertyExtension(models.Model):
         help="The current state of the property."
     )
     property_type_id = fields.Many2one('y.realestate.property.type',string="Property Type")
+    property_tag_id = fields.Many2many('y.realestate.property.tag',string="Property Tags")
